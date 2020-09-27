@@ -23,10 +23,6 @@ Header {
     font-weight: 700;
 }
 
-.nav-links li a {
-    text-decoration: none;
-    color: black;
-}
 
 /*  Bio ========================================================== */
 .container {
@@ -63,6 +59,7 @@ Header {
 }
 
 .bio-content p {
+    text-align: center;
     color: rgb(73, 70, 70);
     width: 70%;
 }
@@ -109,20 +106,13 @@ Header {
         white-space: nowrap;
         font-size: larger;
     }
+
+    .bio-content p {
+        margin: auto;
+    }
 }
 
-@media screen and (max-width: 805px) {
-    .image-content img {
-        width: 200px;
-    }
-    
-    .bio-content {
-        margin-left: 8px;
-    }
-
-}
-
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 860px) {
     .bio {
         display: block;
         text-align: center;
@@ -131,4 +121,22 @@ Header {
     .bio-content p {
         margin: auto;
     }
+    
+
+    .image-content img {
+        width: 200px;
+    }
+    
+    .bio-content {
+        margin-left: 8px;
+    }
+
+    .logo-container {
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    
 } 

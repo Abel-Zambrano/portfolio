@@ -6,7 +6,7 @@ function Heading() {
             <div>
                 <ul className='nav-links'>
                     <li>HOME</li>
-                    <li><a href="#skills">SKILLS</a></li>
+                    <li>SKILLS</li>
                     <li>PROJECTS</li>
                     <li>CONTACT ME</li>
                 </ul>

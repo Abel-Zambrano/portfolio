@@ -11,12 +11,10 @@ function App() {
             <Heading />
             <div className='container'>
                 <Bio />
-                <a id="skills">
                     <h2 className='skills-title'>MY SKILLS</h2>
                     <div  className='logo-container'>
                         {skills.map(createSkill)}                
                     </div>
-                </a>
             </div>
         </div>
     );
