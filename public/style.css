@@ -9,6 +9,11 @@ body {
 background: linear-gradient(0deg, rgba(4,160,144,1) 0%, rgba(21,215,196,1) 26%, rgba(255,255,255,1) 45%);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Header ======================================================= */
 Header {
     display: flex;

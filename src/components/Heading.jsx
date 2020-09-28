@@ -5,10 +5,10 @@ function Heading() {
         <header>
             <div>
                 <ul className='nav-links'>
-                    <li>HOME</li>
-                    <li>SKILLS</li>
-                    <li>PROJECTS</li>
-                    <li>CONTACT ME</li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#skill">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
                 </ul>
             </div>
         </header>

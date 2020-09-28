@@ -14,16 +14,16 @@ function App() {
         <div>
             <Heading />
             <div className='container'>
-                <Bio />
-                    <h2 className='title'>SKILLS</h2>
+                <Bio id='home' />
+                    <h2 id='skill' className='title'>SKILLS</h2>
                     <div  className='logo-container'>
                         {skills.map(createSkill)}                
                     </div>
-                    <h2 className='title-green'>PROJECTS</h2>
+                    <h2 id='projects' className='title-green'>PROJECTS</h2>
                     <div className='project-container'>
                         {projects.map(createProject)}
                     </div>
-                    <h2 className='title-green'>CONTACT ME</h2>
+                    <h2 id='contact' className='title-green'>CONTACT ME</h2>
                     <div>
                         <Contact />
                     </div>

@@ -6,6 +6,7 @@ function createProject(pro) {
     key={pro.id}
     image={pro.img}
     name={pro.name}
+    url={pro.url}
     />
 }
 
