@@ -153,6 +153,16 @@ Header {
     justify-content: center;
 }
 
+#email {
+    transition: 0.2s;
+}
+
+#email:hover {
+    color: rgb(151, 231, 231);
+    text-shadow: 2px 2px 4px black;
+    transform: scale(1.1);
+}
+
 .copyright {
     margin-top: 8em;
     margin-bottom: 2em;
