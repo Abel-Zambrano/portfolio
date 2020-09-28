@@ -3,6 +3,12 @@ html body {
     width: 100%;
     margin: 0;
 }
+
+body {
+    background: rgb(4,160,144);
+background: linear-gradient(0deg, rgba(4,160,144,1) 0%, rgba(21,215,196,1) 26%, rgba(255,255,255,1) 45%);
+}
+
 /* Header ======================================================= */
 Header {
     display: flex;
@@ -87,10 +93,19 @@ Header {
 }
 
 .logo:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 /* PROJECT ================================================================= */
+
+.title-green {
+    color: white;
+    margin-top: 16em;
+    margin-bottom: 6em;
+    text-align: center;
+    text-shadow: 4px 2px 4px darkslategray;
+}
+
 .project-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -99,17 +114,47 @@ Header {
 }
 
 .project-preview {
-    box-shadow: 4px 4px 4px lightgray;
+    box-shadow: 4px 4px 4px darkslategray;
     width: 300px;
     height: 200px;
     transition: .2s;
 }
 
 .project-preview:hover {
-    transform: scale(1.5);
+    transform: scale(1.8);
 }
 
+/* CONTACT ================================================================= */
 
+.contact {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px darkslategray;
+}
+
+.social-media {
+    margin: 1em;
+    width: 100px;
+    height: 100px;
+    transition: 0.2s;
+}
+
+.social-media:hover {
+        transform: scale(1.1);
+}
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    margin-top: 8em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
 
 /* MEDIA QUERIES =========================================================== */
 

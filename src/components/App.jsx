@@ -5,6 +5,8 @@ import skills from '../skills';
 import createSkill from '../createSkill';
 import projects from '../projects';
 import createProject from '../createProject';
+import Contact from './Contact';
+import Footer from './Footer';
 
 
 function App() {
@@ -17,14 +19,15 @@ function App() {
                     <div  className='logo-container'>
                         {skills.map(createSkill)}                
                     </div>
-                    <h2 className='title'>PROJECTS</h2>
+                    <h2 className='title-green'>PROJECTS</h2>
                     <div className='project-container'>
                         {projects.map(createProject)}
                     </div>
-                    <h2 className='title'>CONTACT ME</h2>
+                    <h2 className='title-green'>CONTACT ME</h2>
                     <div>
-
+                        <Contact />
                     </div>
+                    <Footer />
             </div>
         </div>
     );
