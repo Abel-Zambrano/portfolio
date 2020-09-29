@@ -237,8 +237,9 @@ Header {
     and (device-width: 414px) 
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
-
-        .nav-links {
-            display: none;
+    
+        .image-content img {
+            width: 200px;
+            height: 200px;
         }
 }
