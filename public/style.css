@@ -256,5 +256,11 @@ and (-webkit-device-pixel-ratio : 3) {
         width: 70%;
     }
 
+    .logo {
+        max-width: 120px;
+        max-height: 160px;
+        transition: .2s;
+    }
+
         
 }
