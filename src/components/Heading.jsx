@@ -8,7 +8,7 @@ function Heading() {
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#skill">SKILLS</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#contact">CONTACT ME</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </header>

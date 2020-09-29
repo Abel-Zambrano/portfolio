@@ -23,7 +23,7 @@ function App() {
                     <div className='project-container'>
                         {projects.map(createProject)}
                     </div>
-                    <h2 id='contact' className='title-green'>CONTACT ME</h2>
+                    <h2 id='contact' className='title-green'>CONTACT</h2>
                     <div>
                         <Contact />
                     </div>
