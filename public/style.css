@@ -244,7 +244,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
     .image-content img {
         width: 100px;
-        height: 140px;
+        height: 100px;
     }
 
     .bio-content h1 {
@@ -257,7 +257,7 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     .logo {
-        max-width: 120px;
+        max-width: 100px;
         max-height: 160px;
         transition: .2s;
     }
