@@ -197,6 +197,14 @@ Header {
 }
 
 @media screen and (max-width: 860px) {
+    Header {
+        margin-top: -6em;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+    }
+    
     .bio {
         display: block;
         text-align: center;
@@ -219,8 +227,8 @@ Header {
         grid-template-columns: auto auto;
     }
 
-}
+    .project-container {
+        grid-template-columns: auto;
+    }
 
-@media screen and (max-width: 375px) {
-    
-} 
+}

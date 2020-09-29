@@ -3,7 +3,7 @@ import React from 'react';
 function Heading() {
     return(
         <header>
-            <div>
+            <div className='links-container'>
                 <ul className='nav-links'>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#skill">SKILLS</a></li>
