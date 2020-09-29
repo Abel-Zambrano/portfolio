@@ -13,8 +13,8 @@ function App() {
     return(
         <div>
             <Heading />
-            <div className='container'>
-                <Bio id='home' />
+            <div id='home' className='container'>
+                <Bio />
                     <h2 id='skill' className='title'>SKILLS</h2>
                     <div  className='logo-container'>
                         {skills.map(createSkill)}                

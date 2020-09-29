@@ -16,9 +16,10 @@ a {
 
 /* Header ======================================================= */
 Header {
-    display: flex;
-    justify-content: center;
-    /* border-bottom: 1px solid rgb(34, 32, 32); */
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-links {
@@ -32,6 +33,10 @@ Header {
     text-shadow: 2px 2px 4px lightgray;
     font-size: larger;
     font-weight: 700;
+}
+
+.nav-links li a:hover {
+    color: #04a090;
 }
 
 

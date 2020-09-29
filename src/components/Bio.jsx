@@ -9,7 +9,7 @@ function Bio() {
             <div className='bio-content'>
                 <h1>ABEL ZAMBRANO | FULL STACK WEB DEVELOPER</h1>
                 <p>Graduated from California State University, East Bay with a B.S. in Business - <strong>Information Technology Management.</strong></p>
-                <p>Currently having over 1 year of school and personal experience building web applications consisting of responsive and dynamic design. I enjoy turning ideas into functioning applications. Love taking on challenging tasks and learning new technologies.</p>
+                <p>Experience in building web applications consisting of responsive and dynamic design. I enjoy turning ideas into functioning applications. Love taking on challenging tasks and learning new technologies.</p>
             </div>
         </div>
     );
