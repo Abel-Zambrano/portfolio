@@ -60,7 +60,8 @@ Header {
 
 .image-content img {
     width: 300px;
-    border-radius: 2em;
+    height: 300px;
+    border-radius: 50%;
 }
 
 .bio-content {
@@ -242,8 +243,8 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     .image-content img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     .bio-content h1 {
