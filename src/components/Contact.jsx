@@ -17,7 +17,7 @@ function Contact() {
             </div>
             <div>
                 <h3 className='contact'>Phone: (510) 619-4434</h3>
-                <a href="mailto:azambrano@gmail.com">
+                <a href="mailto:azambrano1417@gmail.com">
                     <h3 id='email' className='contact'>Email: azambrano1417@gmail.com</h3>
                 </a>
             </div>
