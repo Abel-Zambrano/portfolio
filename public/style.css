@@ -250,13 +250,7 @@ Header {
 }
 
 @media only screen 
-and (min-width: 375px)
-and (min-height: 812px) 
-and (-webkit-device-pixel-ratio : 3) {
-
-    .container {
-        width: 100%;
-    }
+and (max-width: 375px) {
 
     .nav-links {
         font-size: xx-small;
@@ -264,7 +258,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
     .image-content img {
         width: 150px;
-        height: 150px;
+        height: 200px;
     }
 
     .bio-content h1 {
