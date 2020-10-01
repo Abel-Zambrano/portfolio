@@ -49,6 +49,7 @@ Header {
 .bio {
     display: flex;
     justify-content: center;
+    padding-top: 8em;
 }
 
 .image-content {
@@ -60,8 +61,8 @@ Header {
 
 .image-content img {
     width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    height: 400px;
+    border-radius: 20px;
 }
 
 .bio-content {
@@ -87,7 +88,7 @@ Header {
     margin-top: 16em;
     margin-bottom: 6em;
     text-align: center;
-    text-shadow: 2px 2px 4px lightgray;
+    /* text-shadow: 2px 2px 4px lightgray; */
 }
 
 .logo-container {
@@ -109,19 +110,15 @@ Header {
 
 /* PROJECT ================================================================= */
 
-.title-green {
-    color: white;
-    margin-top: 16em;
-    margin-bottom: 6em;
-    text-align: center;
-    text-shadow: 4px 2px 4px darkslategray;
-}
-
 .project-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 80px;    
     justify-content: center;
+}
+
+.project-div {
+    text-align: center;
 }
 
 .project-preview {
@@ -132,7 +129,30 @@ Header {
 }
 
 .project-preview:hover {
-    transform: scale(1.8);
+    
+    transform: scale(1.2);
+}
+
+.tech-div {
+    width: 300px;
+}
+
+.tech-div p {
+    margin-bottom: 4em;
+}
+
+.gitcode {
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.gitcode:hover {
+    color: tomato;
+    background-color: white;
 }
 
 /* CONTACT ================================================================= */
@@ -199,7 +219,6 @@ Header {
 
 @media screen and (max-width: 860px) {
     Header {
-        margin-top: -6em;
         position: fixed;
         background-color: white;
         width: 100%;

@@ -19,11 +19,11 @@ function App() {
                     <div  className='logo-container'>
                         {skills.map(createSkill)}                
                     </div>
-                    <h2 id='projects' className='title-green'>PROJECTS</h2>
+                    <h2 id='projects' className='title'>PROJECTS</h2>
                     <div className='project-container'>
                         {projects.map(createProject)}
                     </div>
-                    <h2 id='contact' className='title-green'>CONTACT</h2>
+                    <h2 id='contact' className='title'>CONTACT</h2>
                     <div>
                         <Contact />
                     </div>

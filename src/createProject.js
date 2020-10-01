@@ -7,6 +7,8 @@ function createProject(pro) {
     image={pro.img}
     name={pro.name}
     url={pro.url}
+    techUsed={pro.tech}
+    gitURL={pro.git}
     />
 }
 
