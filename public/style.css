@@ -215,11 +215,6 @@ Header {
         margin: auto;
     }
     
-
-    .image-content img {
-        width: 200px;
-    }
-    
     .bio-content {
         margin-left: 8px;
     }
@@ -235,7 +230,8 @@ Header {
 }
 
 @media only screen 
-and (max-width : 375px) 
+and (min-width: 375px)
+and (min-height: 812px) 
 and (-webkit-device-pixel-ratio : 3) {
 
     .nav-links {
