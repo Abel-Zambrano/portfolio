@@ -234,8 +234,8 @@ and (min-width: 375px)
 and (min-height: 812px) 
 and (-webkit-device-pixel-ratio : 3) {
 
-    .body {
-        width: 80%;
+    .container {
+        width: 100%;
     }
 
     .nav-links {
