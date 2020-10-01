@@ -267,7 +267,7 @@ and (min-width: 375px) {
 
     .bio-content p {
         font-size: small;
-        width: 70%;
+        width: 100%;
     }
 
     .logo {
