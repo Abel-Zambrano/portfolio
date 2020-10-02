@@ -69,7 +69,7 @@ Header {
 .bio-content {
     flex: 2;
     margin-top: 6em;
-    
+    text-align: center;
 }
 
 .bio-content h1 {
@@ -78,7 +78,6 @@ Header {
 }
 
 .bio-content p {
-    text-align: center;
     color: rgb(73, 70, 70);
     width: 70%;
 }
