@@ -12,7 +12,7 @@ const projects = [
         img: 'https://live.staticflickr.com/65535/50392526587_56dc91d577_o.png',
         name: 'Web Blog',
         url: 'https://sleepy-lowlands-55100.herokuapp.com/',
-        tech: 'HTML5, CSS3, Node.js, JavaScript, Heroku, MongoDB, Express, Bootstrap4',
+        tech: 'HTML5, CSS3, Node.js, JavaScript, MongoDB, Express, Bootstrap4',
         git: 'https://github.com/Abel-Zambrano/web-blog',
 
     },
@@ -21,7 +21,7 @@ const projects = [
         img: 'https://live.staticflickr.com/65535/50392371011_9b2f33856e_o.png',
         name: 'Cat Gallery',
         url: 'https://polar-spire-96585.herokuapp.com/',
-        tech: 'HTML5, CSS3, Node.js, JavaScript, Heroku, MongoDB, Express, Bootstrap4',
+        tech: 'HTML5, CSS3, Node.js, JavaScript, MongoDB, Express, Bootstrap4',
         git: 'https://github.com/Abel-Zambrano/cat-database'
     }
 ]
