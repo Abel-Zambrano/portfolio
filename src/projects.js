@@ -23,7 +23,16 @@ const projects = [
         url: 'https://polar-spire-96585.herokuapp.com/',
         tech: 'HTML5, CSS3, Node.js, JavaScript, MongoDB, Express, Bootstrap4',
         git: 'https://github.com/Abel-Zambrano/cat-database'
+    },
+    {
+        id: 4,
+        img: 'https://live.staticflickr.com/65535/50546368751_3981d6859e_b.jpg',
+        name: 'Pokemon Card',
+        url: 'https://tarty-paint.surge.sh/',
+        tech: 'React, HTML5, CSS3, JavaScript, AJAX, APIs',
+        git: 'https://github.com/Abel-Zambrano/pokemon-api'
     }
+
 ]
 
 export default projects;
