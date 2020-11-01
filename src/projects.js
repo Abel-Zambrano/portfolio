@@ -3,7 +3,7 @@ const projects = [
         id: 1,
         img: 'https://live.staticflickr.com/65535/50555307523_55b69dff0d_b.jpg',
         name: 'Digital Flix',
-        url: 'https://imminent-bubble.surge.sh/',
+        url: 'http://imminent-bubble.surge.sh/',
         tech: 'React, HTML5, CSS3, JavaScript, AJAX, APIs',
         git: 'https://github.com/Abel-Zambrano/digital-flix'
     },
