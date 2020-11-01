@@ -11,7 +11,7 @@ const projects = [
         id: 2,
         img: 'https://live.staticflickr.com/65535/50555307523_55b69dff0d_b.jpg',
         name: 'Digital Flix',
-        url: '',
+        url: 'https://imminent-bubble.surge.sh/',
         tech: 'React, HTML5, CSS3, JavaScript, AJAX, APIs',
         git: 'https://github.com/Abel-Zambrano/digital-flix'
     },
