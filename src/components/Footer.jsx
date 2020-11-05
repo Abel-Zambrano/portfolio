@@ -1,9 +1,7 @@
 import React from 'react';
 
-const year = new Date().getFullYear();
-
 function Footer() {
-return <footer className='copyright'>Copyright {year}</footer>
+return <footer className='copyright'><i className="far fa-copyright"></i> Abel Zambrano 2020</footer>
 }
 
 export default Footer;
