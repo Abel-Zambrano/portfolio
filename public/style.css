@@ -48,6 +48,7 @@ Header {
 
 .bio {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     padding-top: 8em;
 }
@@ -81,7 +82,7 @@ Header {
 .bio-content p {
     margin: auto;
     color: rgb(73, 70, 70);
-    width: 70%;
+    width: 60%;
 }
 
 /* SKILLS ================================================================== */
