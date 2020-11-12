@@ -1,5 +1,13 @@
 const projects = [
     {
+        id: 6,
+        img: 'https://live.staticflickr.com/65535/50591734898_f74f676139_b.jpg',
+        name: 'Rocket Burger',
+        url: 'https://brave-joliot-6919f0.netlify.app/',
+        tech: 'React, HTML5, CSS3, JavaScript, AJAX, APIs, Firebase',
+        git: 'https://github.com/Abel-Zambrano/rocket-burger'
+    },
+    {
         id: 1,
         img: 'https://live.staticflickr.com/65535/50555307523_55b69dff0d_b.jpg',
         name: 'Digital Flix',
