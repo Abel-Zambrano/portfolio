@@ -1,5 +1,13 @@
 const projects = [
     {
+        id: 7,
+        img: 'https://live.staticflickr.com/65535/50591744463_2b998a492e_b.jpg',
+        name: 'Portfolio',
+        url: 'https://www.abel-zambrano.com/',
+        tech: 'React, HTML5, CSS3, JavaScript',
+        git: 'https://github.com/Abel-Zambrano/portfolio'
+    },
+    {
         id: 6,
         img: 'https://live.staticflickr.com/65535/50591734898_f74f676139_b.jpg',
         name: 'Rocket Burger',
