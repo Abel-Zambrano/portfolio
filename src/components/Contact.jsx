@@ -5,12 +5,12 @@ function Contact() {
         <div>
             <div className='contact-div'>
                 <div>
-                    <a href="https://www.linkedin.com/in/abel-zambrano/" target="_blank">
+                    <a href="https://www.linkedin.com/in/abel-zambrano/" target="_blank" rel="noopener noreferrer">
                     <img className='social-media' src="https://live.staticflickr.com/65535/50392527416_7bb05419f2_o.png" alt="linkedin"/>
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/Abel-Zambrano" target="_blank">
+                    <a href="https://github.com/Abel-Zambrano" target="_blank" rel="noopener noreferrer">
                         <img className='social-media' src="https://live.staticflickr.com/65535/50392696762_edf7cc7366_o.png" alt="github"/>
                     </a>     
                 </div>
